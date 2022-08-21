@@ -180,15 +180,15 @@ header div {
 #contact {
   margin: 0;
   padding: 0;
-}
-.banner {
   position: relative;
 }
 .contact {
   position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
   z-index: 10;
   width: 100%;
-  padding-top: 4rem;
 }
 .contact-text {
   margin: 0rem 15%;
@@ -248,9 +248,6 @@ footer {
 }
 
 @media (max-width: 1399.98px) {
-  .contact {
-    padding-top: 2rem;
-  }
   .contact-info {
     font-size: 1.5rem;
   }
@@ -310,12 +307,12 @@ footer {
   }
 }
 @media (max-width: 1199.98px) {
-  .img-layer {
-    display: none;
-  }
-  .contact {
-    padding-top: 2rem;
-  }
+.head-text h4{
+    font-size: 1.5rem;
+}
+.head-text h1{
+    font-size: 5rem;
+} 
   .contact-text {
     font-size: 1.1rem;
   }
@@ -335,6 +332,16 @@ footer {
   }
 }
 @media (max-width: 991.98px) {
+.head-text h4{
+    font-size: 1.5rem;
+}
+.head-text h1{
+    font-size: 4rem;
+} 
+
+    .img-layer {
+        display: none;
+      }
   .focus-bg div {
     text-align: center;
   }
@@ -343,22 +350,19 @@ footer {
   .focus-cards {
     text-align: center;
   }
-  .contact {
-    padding-top: 1.5rem;
-  }
   .contact-text h1 {
     font-size: 2.35rem;
   }
 }
 @media (max-width: 767.98px) {
+.sub-head h3 {
+    font-size: 1.475rem;
+  } 
   .logo {
     width: 50%;
   }
   .img-layer img {
     margin-top: 0rem;
-  }
-  .contact {
-    padding-top: 0.5rem;
   }
   .contact-info {
     font-size: 1rem;
@@ -383,6 +387,13 @@ footer {
   }
 }
 @media (max-width: 575.98px) {
+    .head-text h4{
+        font-size: 1rem;
+    }
+    .head-text h1{
+        font-size: 2.5rem;
+    } 
+  
   section {
     margin: 0 4%;
   }
@@ -402,7 +413,8 @@ footer {
     height: 15vh;
   }
   .sub-head h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    width: 80%;
   }
   .inner-col,
   .stats,
@@ -420,9 +432,6 @@ footer {
   }
   #Focus {
     padding: 2rem 0 0rem;
-  }
-  .contact {
-    padding-top: 0.1rem;
   }
   .contact-info {
     font-size: 0.6rem;
