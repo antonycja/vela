@@ -46,6 +46,36 @@ header div {
 
 }
 
+#About .container{
+  position: relative;
+}
+.sm-box{
+  width:30%;
+  /* height:9rem; */
+  border: 5px solid #FFFFFF;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F7A735;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.sm-box-text h1{
+  font-size: 1.6875rem;
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 600;
+  line-height: 1;
+}
+.sm-box-img img{
+  height: 20vh;
+}
+
 .img-layer img {
   height: 100vh;
   overflow: hidden;
@@ -251,6 +281,9 @@ footer {
   .contact-info {
     font-size: 1.5rem;
   }
+  /* .sm-box{
+    display: none;
+  } */
   .contact-text {
     margin: 0rem 20%;
     font-size: 1.5rem;
@@ -306,7 +339,15 @@ footer {
     line-height: 1.5;
   }
 }
+@media (max-width: 1280px) {
+    .sm-box{
+    display: none;
+  }
+}
 @media (max-width: 1199.98px) {
+    /* .sm-box{
+    display: none;
+  } */
 .head-text h4{
     font-size: 1.5rem;
 }
