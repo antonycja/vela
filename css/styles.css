@@ -67,6 +67,9 @@ header div {
   gap: 2rem;
 
 }
+.sm-inner-col{
+  display: none;
+}
 
 .sm-box-text h1{
   font-size: 1.6875rem;
@@ -391,6 +394,7 @@ footer {
     font-size: 4rem;
 } 
 
+
     .img-layer {
         display: none;
       }
@@ -401,7 +405,16 @@ footer {
   .stats,
   .focus-cards {
     text-align: center;
+   padding-bottom: 0;
+   margin-bottom: 0;
   }
+.lg-inner-col{
+  display: none;
+}
+.sm-inner-col{
+  display: block;
+}
+
   .contact-text h1 {
     font-size: 2rem;
   }
