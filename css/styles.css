@@ -406,6 +406,12 @@ footer {
   .sa-map {
     width: 100%;
   }
+  .fun-fact {
+    font-size: 2.1rem;
+  }
+  .fun-fact span {
+    font-size: 5.625rem;
+  }
 
   /* Footer */
   .info img {
@@ -422,7 +428,12 @@ footer {
 .head-text h1{
     font-size: 3rem;
 } 
-
+.fun-fact span {
+  font-size: 7.625rem;
+}
+.fun-fact {
+  font-size: 2.18rem;
+}
 
     .img-layer {
         display: none;
@@ -471,6 +482,9 @@ footer {
   .contact-text h1 {
     font-size: 1.55rem;
   }
+  .info > div:nth-child(5) > a:nth-child(2) > span:nth-child(1) {
+    padding-left: .5rem;
+  }
 
   /* Footer */
   .footer {
@@ -502,6 +516,7 @@ footer {
   }
   .logo {
     width: 60%;
+    padding-right: 0;
   }
   .navbar-brand {
     margin-right: 0;
@@ -516,7 +531,10 @@ footer {
   .inner-col,
   .stats,
   .focus-cards {
-    padding: 2rem 1rem;
+    padding: 1rem;
+  }
+  .row{
+    display: block;
   }
   .fun-fact {
     font-size: 2.18rem;
