@@ -14,7 +14,9 @@ section {
 
   font-family: "Poppins";
 }
-
+.nav-link{
+  font-size: .89rem;
+}
 header div {
   position: relative;
 }
@@ -24,6 +26,7 @@ header div {
 }
 .carousel-inner{
     position: relative;
+    height: 85vh;
 }
 .head-text{
     text-align: center;
@@ -96,11 +99,14 @@ header div {
 
 .logo {
   width: 85%;
+  padding: 1rem;
+  padding-left: 0;
 }
 
 .carousel-item img {
-  height: 85vh;
+  height: 100vh;
   position: relative;
+  width: 100%;
   filter: brightness(50%);
 }
 
@@ -119,7 +125,8 @@ header div {
 .sub-head h3 {
   /* margin: auto 15%; */
   color: white;
-  font-size: 1.875rem;
+  font-size: 1.275rem;
+  padding: 1rem;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -203,6 +210,7 @@ header div {
 }
 .focus-bg div {
   text-align: left;
+  font-size: 1rem;
   padding: 0.4rem 0.6rem;
 }
 
@@ -221,10 +229,10 @@ header div {
   width: 100%;
 }
 .contact-text {
-  margin: 0rem 15%;
+  margin: 2rem 15%;
   text-align: center;
   color: white;
-  /* font-size: 1.75rem; */
+  font-size: 1.25rem;
   font-family: "Montserrat";
 }
 .contact-text p {
@@ -233,7 +241,7 @@ header div {
 .contact-text h1 {
   font-family: "PT Sans Narrow";
   font-weight: 700;
-  font-size: 4.75rem;
+  font-size: 4.25rem;
   text-transform: uppercase;
 }
 .contact-text h1 span {
@@ -256,7 +264,7 @@ footer {
   margin: 0.5rem 0;
 }
 .footer-logo img {
-  width: 70%;
+  width: 50%;
 }
 
 .footer-logo {
@@ -285,15 +293,15 @@ footer {
     display: none;
   } */
   .contact-text {
-    margin: 0rem 20%;
-    font-size: 1.5rem;
+    margin: 2rem 20%;
+    font-size: 1.25rem;
     line-height: 1;
   }
   .contact-text p {
     margin: 0rem 4%;
   }
   .contact-text h1 {
-    font-size: 3.55rem;
+    font-size: 3.25rem;
   }
   .fun-fact {
     font-size: 2.18rem;
@@ -317,7 +325,7 @@ footer {
     margin: 0.5rem 0;
   }
   .footer-logo img {
-    width: 60%;
+    width: 40%;
   }
   .info img {
     width: 5%;
@@ -355,10 +363,10 @@ footer {
     font-size: 5rem;
 } 
   .contact-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .contact-text h1 {
-    font-size: 2.55rem;
+    font-size: 2.15rem;
   }
   .sa-map {
     width: 100%;
@@ -392,12 +400,12 @@ footer {
     text-align: center;
   }
   .contact-text h1 {
-    font-size: 2.35rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 767.98px) {
 .sub-head h3 {
-    font-size: 1.475rem;
+    font-size: 1rem;
   } 
   .logo {
     width: 50%;
@@ -409,8 +417,8 @@ footer {
     font-size: 1rem;
   }
   .contact-text {
-    margin: 0rem 15%;
-    font-size: 0.9rem;
+    margin: 1.5rem 15%;
+    font-size: 0.89rem;
   }
   .contact-text p {
     margin: 0rem 2%;
@@ -442,7 +450,7 @@ footer {
     margin: 0 2%;
   }
   .banner .w-100 {
-    height: 9rem;
+    height: 7rem;
   }
   .logo {
     width: 60%;
@@ -454,7 +462,7 @@ footer {
     height: 15vh;
   }
   .sub-head h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     width: 80%;
   }
   .inner-col,
